@@ -150,7 +150,7 @@
   export default {
     methods: {
         openMapsSediu() {
-            const address = "Nicolae Titulescu, nr. 1, Targu Jiu, Gorj";
+            const address = "Strada Nicolae Titulescu 1 27JJ+C4, Târgu Jiu, Gorj";
             const url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
             window.open(url, "_blank");
         },
@@ -461,6 +461,7 @@
     .pinmap img {
         height: 65px;
         border-radius: 10px;
+        margin-left: 10px;
     }
 }
 </style>
