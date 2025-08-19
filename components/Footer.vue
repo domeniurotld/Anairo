@@ -12,10 +12,6 @@
         <div class="footer-section">
           <div class="footer-title">Contactați-ne</div>
           <div class="contact-info">
-            <Icon name="material-symbols:call-sharp" size="1.1rem" class="contact-icon" />
-            <a class="footer-text mobile-number" href="tel:+40723147475">+40 723 147 475  / </a> <a class="footer-text mobile-number" href="tel:+40722505851">+40 722 505 851</a> 
-          </div>
-          <div class="contact-info">
             <Icon name="material-symbols-light:mail-rounded" size="1.2rem" class="contact-icon" />
             <span class="footer-text">anairosrl@yahoo.com</span>
           </div>

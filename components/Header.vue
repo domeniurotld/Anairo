@@ -1,46 +1,46 @@
 <template>
     <header class="header">
       <div class="row desktop-only align-items-center">
-        <div class="col-auto logo">
+        <div class="col-auto logo" style="width: 20%;">
           <img src="/assets/images/logo.png" alt="Logo" @click="goToRoute('/')"/>
         </div>
 
-        <nav class="nav nav-left">
+        <nav class="nav nav-left" style="width: 60%;">
           <button class="tab-button" @click="goToRoute('/')">Acasă</button>
           <button class="tab-button" @click="scrollToSection('aboutus')">Despre noi</button>
           <button class="tab-button" @click="scrollToSection('products')">Produse</button>
           <button class="tab-button" @click="scrollToSection('contact')">Contact</button>
         </nav>
         
-        <!-- <div class="row" style="display: flex; justify-content: end; margin-right: 9rem; width: 30%;">
-          <a href="tel:+40740128833" style="width: auto;">
-              <button class="tab-button" style="display: inline-flex; align-items: center; border:2px solid black; padding-top: 0.4rem; padding-bottom: 0.4rem;"> 
+        <div class="row" style="display: flex; justify-content: end; width: 20%;">
+          <a href="tel:+40724010239" style="width: auto;">
+              <button class="tab-button" style="display: inline-flex; align-items: center; padding-top: 0.4rem; padding-bottom: 0.4rem;"> 
                   <Icon name="material-symbols:call" size="1.7rem" style="margin-right: 0.7rem;" /> 
-                  <span>Contactați-ne</span>
+                  <span>+40 724 010 239</span>
               </button>
           </a>
-        </div> -->
+        </div>
       </div>
 
       <div class="col mobile-only">
         <div class="logo" style="padding: 0;">
           <img src="/assets/images/logo.png" alt="Logo" @click="goToRoute('/')"/>
         </div>
-        <nav class="nav nav-left" style="margin-bottom: 1rem;">
+        <nav class="nav nav-left" style="margin-bottom: 0.4rem;">
           <div style="display: flex; justify-content: center; width: 100%; gap: 1rem; padding: 0 1rem;">
             <button class="tab-button" style="width: 45%;" @click="scrollToSection('aboutus')">Despre</button>
             <button class="tab-button" style="width: 45%;" @click="scrollToSection('products')">Produse</button>
             <button class="tab-button" style="width: 45%;" @click="scrollToSection('contact')">Contact</button>
           </div>
         </nav>
-        <!-- <div class="row" style="display: flex; justify-content: center; margin-bottom: 1rem;">
-          <a href="tel:+40740128833" style="width: auto;">
-              <button class="tab-button" style="display: inline-flex; align-items: center; border:2px solid black; padding-top: 0.4rem; padding-bottom: 0.4rem;"> 
+        <div class="row" style="display: flex; justify-content: center; margin-bottom: 0.4rem; width: 100%;">
+          <a href="tel:+40724010239" style="width: auto;">
+              <button class="tab-button" style="display: inline-flex; align-items: center; padding-top: 0.4rem; padding-bottom: 0.4rem;"> 
                   <Icon name="material-symbols:call" size="1.7rem" style="margin-right: 0.7rem;" /> 
-                  <span>Contactați-ne</span>
+                  <span>+40 724 010 239</span>
               </button>
           </a>
-        </div> -->
+        </div>
       </div>
     </header>
   </template>
@@ -110,7 +110,7 @@
   }
   
   .nav {
-    justify-content: end;
+    justify-content: center;
     display: flex;
     gap: 1rem;
   }

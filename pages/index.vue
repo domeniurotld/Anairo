@@ -17,7 +17,7 @@
                         </div>    
                     </div>
                     <div class="contact-button">
-                        <a href="tel:+40723147475">
+                        <a href="tel:+40724010239">
                             <button class="top-section-button"> 
                                 <Icon name="material-symbols:call" size="1.7rem" style="margin-right: 0.7rem;" /> 
                                 <span>Contactați-ne</span>
@@ -111,7 +111,7 @@
                         </p>
                         <p class="simple-text" style="margin-left: 1rem;">
                             • Adresă: <b>Nicolae Titulescu, nr. 1, Targu Jiu, Gorj</b>
-                            <br>• Telefon: <a class="simple-text" href="tel:+40723147475" style="text-decoration: none;"><b>+40 723 147 475</b></a> <b>/</b> <a class="simple-text" href="tel:+40722505851" style="text-decoration: none;"><b>+40 722 505 851</b></a>
+                            <br>• Telefon: <a class="simple-text" href="tel:+40253238393" style="text-decoration: none;"><b>+40 253 238 393</b></a>
                             <br>• Email: <b>anairosrl@yahoo.com</b>
                         </p>
                     </div>
@@ -127,7 +127,7 @@
                         </p>
                         <p class="simple-text" style="margin-left: 1rem;">
                             • Adresă: <b>Aleea Iazului, nr. 6, Balesti, Gorj</b>
-                            <br>• Telefon: <a class="simple-text" href="tel:+40723147475" style="text-decoration: none;"><b>+40 723 147 475</b></a> <b>/</b> <a class="simple-text" href="tel:+40722505851" style="text-decoration: none;"><b>+40 722 505 851</b></a>
+                            <br>• Telefon: <a class="simple-text" href="tel:+40724010239" style="text-decoration: none;"><b>+40 724 010 239</b></a>
                             <br>• Email: <b>anairosrl@yahoo.com</b>
                         </p>
                     </div>
@@ -150,7 +150,7 @@
   export default {
     methods: {
         openMapsSediu() {
-            const address = "Strada Nicolae Titulescu 1 27JJ+C4, Târgu Jiu, Gorj";
+            const address = "45.031274, 23.280336";
             const url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
             window.open(url, "_blank");
         },
