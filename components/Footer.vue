@@ -12,6 +12,10 @@
         <div class="footer-section">
           <div class="footer-title">Contactați-ne</div>
           <div class="contact-info">
+            <Icon name="material-symbols:call-sharp" size="1.1rem" class="contact-icon" />
+            <a class="footer-text mobile-number" href="tel:+40724010239">+40 724 010 239</a> 
+          </div>
+          <div class="contact-info">
             <Icon name="material-symbols-light:mail-rounded" size="1.2rem" class="contact-icon" />
             <span class="footer-text">anairosrl@yahoo.com</span>
           </div>
